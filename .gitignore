@@ -1,0 +1,33 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# .NET
+bin/
+obj/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Development configuration
+appsettings.Development.json
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+temp/
+tmp/
